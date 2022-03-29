@@ -5,7 +5,7 @@ var addOne= document.querySelector('.neil');
 
 function addUp(element) {
     neilM++;
-    addOne.innerText= neilM + "like(s)";
+    addOne.innerText= neilM + " like(s)";
 }
 
 /* nichole likes */
