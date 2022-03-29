@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likespt1</title>
+</head>
+<style>
+
+.layout{
+    border: 5px solid black;
+    width:30%;
+    margin: 50px 150px;
+}  
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    border: 2px solid black;
+    width:75px;
+    padding:5px;
+    background-color: rgb(255, 196, 0);
+    box-shadow: 3px 3px black;
+    font-weight: bolder;
+    font-size:20px;
+}
+
+.about{
+    font-size: 20px;
+    text-align: center;
+}
+</style>
+
+
+<body>
+<div class="layout">
+<div class="top">
+    <h1>Some User</h1>
+    <h2 id="likes">3 like(s)</h2>
+    <button onclick="addOne(this)">Like</button>
+</div>
+<div class="about">
+    <p>Tell us anything about yourself<br>
+    insert stuff here....</p>
+</div>
+</div>
+
+<script src="/script.js"></script>  
+
+</body>
+</html>
