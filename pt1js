@@ -1,0 +1,9 @@
+var count=3;
+var likeMe=document.querySelector('#likes');
+
+console.log(likeMe);
+
+function addOne(){
+    count++;
+    likeMe.innerText= count + " like(s)";
+}
